@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Jack</title>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" type = "text/css" href = "style.css">
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+    <audio src="sound.mp3" autoplay="autoplay"></audio>
+     <div class="all-choice" id="all-choice">
+        <div class="choice">
+          <button id="choice-button-1"><img src="images/jack-with-topor.png"></button>
+          <button id="choice-button-2"><img src="images/jack-with-topor-2.png"></button>
+          <button id="choice-button-3"><img src="images/jack-with-topor-3.png"></button>
+          <button id="choice-button-4"><img src="images/jack-with-topor-4.png"></button>
+        </div>
+        <div class="show-choice"><button  id="show-choice">Выбрать персонажа</button></div>
+      </div>
+    <div class="all" id="all">
+      <button class="button-l-r button-l" id="left">Влево</button>
+      <button class="button-l-r button-r" id="right">Вправо</button>
+      
+      <div class="how" id="how"><p>Управление: A - влево, D - вправо.</p></div>
+      <div class="kust-1"><img src="images/kust.png"></div>
+      <div class="kust-2"><img src="images/kust.png"></div>
+      <div class="kust-3"><img src="images/kust.png"></div>
+      <div class="cloud-1" id="cloud-1"></div>
+      <div class="cloud-2" id="cloud-2"></div>
+      <div class="sky"></div>
+      <div class="left-widgets">
+        <div class="counter" id="counter">0</div>
+        <div class="border"><div class="shkala" id="shkala"></div></div>  
+      </div>
+      <div class="tree">
+        <div class="branch-purple"><img src="images/branch.png" id="branch-purple"></div>
+        <div class="branch-green"><img src="images/branch.png" id="branch-green"></div>
+        <div class="branch-blue"><img src="images/branch.png" id="branch-blue"></div>
+        <div class="branch-yellow"><img src="images/branch.png" id="branch-yellow"></div>
+        <div class="jack" id="jack">
+          <img src="images/jack-with-topor.png" id="jack-img">
+        </div>
+      </div>
+      <div class="circle-1"></div>
+    </div>
+
+    <div class="why-1" id="why-1">
+      <center>
+        <p class="why-p">Вы врезались в ветку</p>
+        <p class="score" id="counter-why-1"></p>
+      </center>
+    </div>
+    <div class="why-2" id="why-2">
+      <center>
+        <p class="why-p">Время закончилось</p>
+        <p class="score" id="counter-why-2"></p>
+      </center>
+    </div>
+    
+    <button class="start" id="start">Начать</button>
+    
+  </body>
+</html>
